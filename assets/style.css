@@ -168,7 +168,7 @@
     background: linear-gradient(var(--gradient-first-color), var(--gradient-second-color));
     border-radius: 10px;
 
-    width: 85%;
+    /* width: 85%; */
     height: 18px;
     max-width: 99%;
 }

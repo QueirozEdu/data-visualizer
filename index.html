@@ -52,20 +52,21 @@
             </section>
             <section class="data__visualization">
                 <div class="data__visualization-header">
-                    <p class="data__visualization-header--title" onclick="readJson()">You've used of your storage</p>
+                    <p class="data__visualization-header--title" id="data__visualization-header--title">You've used of
+                        your storage</p>
                     <span class="data__visualization-balloon">
-                        <p class="space__left-value" id="space__left-value">185</p>
+                        <p class="space__left-value" id="space__left-value"></p>
                         <p class="space__left-text"> GB LEFT</p>
                         <!-- <div class="point"></div> -->
                     </span>
                 </div>
                 <div class="data__visualization-chart">
                     <div class="chart__background"></div>
-                    <div class="chart__bar"></div>
+                    <div class="chart__bar" id="chart__bar"></div>
                 </div>
                 <div class="storage__value">
-                    <p class="bar__initial-value">0 GB</p>
-                    <p class="bar__final-value">1000 GB</p>
+                    <p class="bar__initial-value" id="bar__initial-value">0 GB</p>
+                    <p class="bar__final-value" id="bar__final-value">1000 GB</p>
                 </div>
             </section>
         </span>
