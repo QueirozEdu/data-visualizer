@@ -21,11 +21,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    z-index: -10;
 }
 
 .data__component {
     display: flex;
     align-items: flex-end;
+
+    z-index: 10;
 }
 
 .data__information {
@@ -183,4 +187,20 @@
 
     color: var(--pale-Blue);
     font-weight: 700;
+}
+
+.footer {
+    background-image: url(/assets/images/bg-desktop.png);
+
+    width: 72vw;
+    height: 48vh;
+    max-width: 1430px;
+    max-height: 414px;
+
+    position: absolute;
+
+    z-index: 1;
+
+    right: 0;
+    bottom: 0;
 }

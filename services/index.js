@@ -14,7 +14,7 @@ async function readJson() {
     document.getElementById("chart__bar").style.width = finalBarWidth;
 
 
-    document.getElementById("data__visualization-header--title").innerText = "You've used ".concat(usedStorage).concat(" GB of your storage")
+    document.getElementById("data__visualization-header--title").innerText = "You've used ".concat(usedStorage).concat(" GB of your storage") 
     document.getElementById("space__left-value").innerHTML = fullStorage - usedStorage;
 
 }
