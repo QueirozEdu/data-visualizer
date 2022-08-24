@@ -73,10 +73,11 @@
     </main>
     <footer class="footer">
         <div class="data__mock">
-            <input type="range" name="storage" id="storage__available-slider" class="storage__slider" min="0"
-                max="1000">
+            <input type="range" name="storage" id="storage__available-slider" class="storage__slider" min="0" max="1000"
+                onchange="showSliderData()" value="750">
             <label for="storage">space available</label>
-            <input type="range" name="used" id="storage__used-slider" class="storage__slider" min="0" max="10000">
+            <input type="range" name="used" id="storage__used-slider" class="storage__slider" min="0" max="1000"
+                onchange="showSliderData()" value="200">
             <label for="used">space used</label>
         </div>
     </footer>
