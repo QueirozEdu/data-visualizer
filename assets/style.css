@@ -214,4 +214,11 @@
     right: 0%;
 
     width: 180px;
+
+    color: white;
+    text-align: center;   
+}
+
+.data__mock label {
+    margin-bottom: 20px;
 }
