@@ -222,3 +222,23 @@
 .data__mock label {
     margin-bottom: 20px;
 }
+
+
+@media (max-width: 693px) {
+    .data__component {
+        flex-direction: column;
+        align-items: center;
+    }
+    .data__information {
+        max-width: 100vw;
+        width: 75%;
+        /* width: 100%; */
+    }
+    .data__visualization {
+        margin: 15px auto;
+        max-width: 1000vw;
+        position: relative;
+        left: -9px;
+        width: 106%;
+    }
+}
